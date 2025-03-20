@@ -5,3 +5,4 @@ description: >-
 baseurl: "" # With a custom domain, this should be empty
 url: "https://blog.brandomy.com" # Your custom domain with https protocol
 theme: minima
+timezone: Asia/Singapore
