@@ -5,8 +5,8 @@
 layout: home
 ---
 
-![Cover Image for Musings Blog](/assets/images/cover-image.jpg)
+![Cover Image for Brandomy Blog](/assets/images/cover-image.jpg)
 
-# Welcome to Musings
+# Welcome to Brandomy
 
 A blog exploring the intersection of brand strategy, consumer psychology, and market trends, with particular focus on emerging markets and cross-cultural branding insights.

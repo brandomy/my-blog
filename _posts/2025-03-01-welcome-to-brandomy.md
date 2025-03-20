@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "My First Blog Post"
+title: "Welcome to Brandomy"
 date: 2025-03-20 08:00:00 +0800
 categories: personal
 ---
 
-# Welcome to Musings: My Brand Story Journey Begins
+# Welcome to Brandomy: My Brand Story Journey Begins
 
 For over three decades, I've been captivated by the power of brand stories. From my earliest memories of iconic advertising campaigns that defined generations to witnessing the evolution of how companies connect with consumers in the digital age, I've observed these narratives with a mixture of fascination and analytical curiosity. What makes some brands resonate so deeply while others fade into obscurity? How do certain companies leverage consumer psychology to create emotional connections that transcend their products? These questions have been constant companions throughout my professional life.
 
