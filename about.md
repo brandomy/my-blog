@@ -6,7 +6,9 @@ permalink: /about/
 
 ![Here's looking at you! A serious squirrel](/assets/images/jekyll_test_image_5.jpg)
 
-My name is Randal and while I hold a Canadian passport, I am a world citizen. I have been very fortunate to live for a good period of time in Russia and China, as well as growing up in Canada. I served in the Navy and this gave me my first chance to see the world beyond the little tranquil valley town where I grew up in Ontario.
+## About Me
+
+My name is Randal (Eastman) and while I hold a 🇨🇦 Canadian passport, I feel I am truly a world citizen. I have been very fortunate to live for a good period of time in Russia and China, as well as growing up in Canada. I served in the Navy and this gave me my first chance to see the world beyond the little tranquil valley town where I grew up in Ontario.
 
 I have seen China when it was just beginning to emerge on the global stage, and I have seen Russia at its nadir in the 90's. I have seen Syria before the war and North Korea after there was a slight opening up and hope for its people to re-emerge on the global stage. Now I sit in the relatively small "silicon island" that is Penang, in Malaysia. Whether in Canada or abroad I conclude that we are all basically the same. Our regimes may differ but people are basically the same. And I enjoy meeting them and connecting them. 
 
