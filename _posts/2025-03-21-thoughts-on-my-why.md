@@ -2,7 +2,7 @@
 layout: post
 title: "My Why?"
 date: 2025-03-21 06:30:00 +0800
-categories: category1 category2
+category: brand-musings
 ---
 
 ![A winding path forward in the forest](/assets/images/my-why.jpg)
