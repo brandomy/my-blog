@@ -13,3 +13,7 @@ header_pages:
   # Add any other pages you want in navigation
   # - contact.md
   # - projects.md
+
+sass:
+  quiet_deps: true
+  style: compressed
