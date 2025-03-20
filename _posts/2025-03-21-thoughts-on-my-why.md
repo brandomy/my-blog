@@ -7,7 +7,7 @@ categories: category1 category2
 
 ![A winding path forward in the forest](/assets/images/my-why.jpg)
 
-# What's my why?
+
 
 ## Why - my Why?
 
