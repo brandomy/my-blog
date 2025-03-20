@@ -1,5 +1,5 @@
 # Jekyll Project Structure Report
-*Generated: Thu 20 Mar 2025 17:58:00 +08*
+*Generated: Thu 20 Mar 2025 21:57:09 +08*
 
 ## Basic System Information
 - **Operating System:** Darwin
@@ -10,6 +10,8 @@
 ## Project Directory Structure
 ```
 .
+./_includes
+./_layouts
 ./_posts
 ./assets
 ./assets/images
@@ -26,7 +28,6 @@
 ./about.md
 ./index.md
 ./jekyll-project-report.md
-./jekyll-report-md.sh
 ./jekyll-report-safe.sh
 ```
 
@@ -38,12 +39,10 @@ _posts/2025-03-20-welcome-to-my-musings.md
 
 ### Files in _layouts Directory
 ```
-No _layouts directory found (this is normal if using a gem-based theme)!
 ```
 
 ### Files in _includes Directory
 ```
-No _includes directory found (this is normal if using a gem-based theme)!
 ```
 
 ## Configuration Files
@@ -83,7 +82,7 @@ layout: home
 ---
 layout: post
 title: "My First Blog Post"
-date: 2025-03-20
+date: 2025-03-20 08:00:00 +0800
 categories: personal
 ---
 ```
