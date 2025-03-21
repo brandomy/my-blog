@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to Brandomy"
-date: 2025-03-20 08:00:00 +0800
+date: 2025-03-01 08:00:00 +0800
 category: brand-thoughts
 tags:
   - Life Lessons

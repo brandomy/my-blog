@@ -1,5 +1,5 @@
 # Jekyll Project Structure Report
-*Generated: Fri Mar 21 10:01:30 +08 2025*
+*Generated: Fri Mar 21 11:13:25 +08 2025*
 
 ## Basic System Information
 - **Operating System:** Darwin
@@ -10,6 +10,7 @@
 ## Project Directory Structure
 ```
 .
+./_data
 ./_drafts
 ./_includes
 ./_layouts
@@ -35,12 +36,14 @@
 ./index.md
 ./jekyll-project-report.md
 ./jekyll-report-safe.sh
+./tags.md
 ```
 
 ### Files in _posts Directory
 ```
 _posts/.DS_Store
 _posts/2025-03-01-welcome-to-brandomy.md
+_posts/2025-03-21-test-post-with-tags.md
 _posts/2025-03-21-thoughts-on-my-why.md
 ```
 
@@ -98,6 +101,23 @@ layout: post
 title: "Welcome to Brandomy"
 date: 2025-03-20 08:00:00 +0800
 category: brand-thoughts
+tags:
+  - Life Lessons
+  - Small Wonders
+  - Unexpected Joy
+---
+```
+### 2025-03-21-test-post-with-tags.md
+```yaml
+---
+layout: post
+title: "Test Post with Tags"
+date: 2025-03-22 12:00:00 +0800
+category: brand-thoughts
+tags:
+  - Random Thoughts
+  - Cool Designs
+  - Memory Lane
 ---
 ```
 ### 2025-03-21-thoughts-on-my-why.md
@@ -107,6 +127,11 @@ layout: post
 title: "My Why?"
 date: 2025-03-21 06:30:00 +0800
 category: brand-thoughts
+tags:
+  - Life Lessons
+  - Random Thoughts
+  - Memory Lane
+  - Spotted in China
 ---
 ```
 
@@ -128,6 +153,7 @@ Consider adding 'future: true' to _config.yml
 Files with future dates:
 ```
 _posts/2025-03-01-welcome-to-brandomy.md
+_posts/2025-03-21-test-post-with-tags.md
 _posts/2025-03-21-thoughts-on-my-why.md
 ```
 
