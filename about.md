@@ -14,6 +14,24 @@ I have seen China when it was just beginning to emerge on the global stage, and 
 
 Nothing in fact makes me more satisfied than connecting one person (be they friend or acquaintance) in one country with another, in another. I do it naturally and I really do enjoy it.
 
+### My Business
+<a href="https://brandmine.io" target="_blank">Brandmine</a> - Amplifying leading consumer brands of the BRICS+
+
+### My Clubs
+**Russia**
+- Saint Petersburg International Rotary Club
+- Saint Petersburg Toastmasters Club
+
+**China**
+- Shanghai Rotary Club
+- BRICS+ Toastmasters Club
+
+**Malaysia**
+- Penang Pitchmasters Toastmasters Club  
+
+
+***
+
 ## Connect With Me
 
 <div class="social-links">
