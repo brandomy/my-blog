@@ -4,7 +4,9 @@ layout: default
 <div class="category">
   <h1 class="page-heading">{{ page.title }}</h1>
 
-  {{ content }}
+  <div class="category-content">
+    {{ content }}
+  </div>
 
   <h2>Posts in 
     {% assign words = page.category | replace: '-', ' ' | split: ' ' %}
