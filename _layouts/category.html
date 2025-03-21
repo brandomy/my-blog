@@ -6,7 +6,16 @@ layout: default
 
   {{ content }}
 
-  <h2>Posts in {{ page.category | capitalize | replace: '-', ' ' }}</h2>
+  <h2>Posts in 
+    {% assign words = page.category | replace: '-', ' ' | split: ' ' %}
+    {% capture titlecase %}
+      {% for word in words %}
+        {{ word | capitalize }}
+        {% unless forloop.last %} {% endunless %}
+      {% endfor %}
+    {% endcapture %}
+    {{ titlecase }}
+  </h2>
 
   <ul class="post-list">
     {% assign filtered_posts = site.posts | where: 'category', page.category %}

@@ -17,3 +17,19 @@ header_pages:
 sass:
   quiet_deps: true
   style: compressed
+
+
+# Add these lines to your _config.yml
+permalink: /:year/:month/:day/:title/
+
+# Category settings
+collections:
+  category:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"

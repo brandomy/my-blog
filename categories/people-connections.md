@@ -1,4 +1,3 @@
-# categories/people-connections.md
 ---
 layout: category
 title: People & Connections

@@ -1,4 +1,3 @@
-# categories/brand-thoughts.md
 ---
 layout: category
 title: Brand Thoughts

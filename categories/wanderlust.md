@@ -1,4 +1,3 @@
-# categories/wanderlust.md
 ---
 layout: category
 title: Wanderlust

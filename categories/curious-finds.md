@@ -1,4 +1,3 @@
-# categories/curious-finds.md
 ---
 layout: category
 title: Curious Finds

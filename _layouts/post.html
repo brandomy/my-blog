@@ -16,7 +16,14 @@ layout: default
       {% if page.category %}
         • <span class="post-category">
           <a href="/categories/{{ page.category }}/">
-            {{ page.category | capitalize | replace: '-', ' ' }}
+            {% assign words = page.category | replace: '-', ' ' | split: ' ' %}
+            {% capture titlecase %}
+              {% for word in words %}
+                {{ word | capitalize }}
+                {% unless forloop.last %} {% endunless %}
+              {% endfor %}
+            {% endcapture %}
+            {{ titlecase }}
           </a>
         </span>
       {% endif %}

@@ -1,4 +1,3 @@
-# categories/bright-ideas.md
 ---
 layout: category
 title: Bright Ideas

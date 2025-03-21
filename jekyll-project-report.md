@@ -1,5 +1,5 @@
 # Jekyll Project Structure Report
-*Generated: Thu 20 Mar 2025 21:57:09 +08*
+*Generated: Fri 21 Mar 2025 08:08:39 +08*
 
 ## Basic System Information
 - **Operating System:** Darwin
@@ -14,7 +14,10 @@
 ./_layouts
 ./_posts
 ./assets
+./assets/css
+./assets/favicons
 ./assets/images
+./categories
 ```
 
 ## Important Files
@@ -26,6 +29,7 @@
 ./Gemfile.lock
 ./_config.yml
 ./about.md
+./categories.md
 ./index.md
 ./jekyll-project-report.md
 ./jekyll-report-safe.sh
@@ -34,22 +38,29 @@
 ### Files in _posts Directory
 ```
 _posts/.DS_Store
-_posts/2025-03-20-welcome-to-my-musings.md
+_posts/2025-03-01-welcome-to-brandomy.md
+_posts/2025-03-21-thoughts-on-my-why.md
 ```
 
 ### Files in _layouts Directory
 ```
+_layouts/category.html
+_layouts/home.html
+_layouts/post.html
 ```
 
 ### Files in _includes Directory
 ```
+_includes/footer.html
+_includes/head.html
+_includes/social.html
 ```
 
 ## Configuration Files
 ### _config.yml
 ```yaml
 # Key settings extracted from _config.yml:
-title: Musings
+title: Brandomy
 description: >- 
 baseurl: "" # With a custom domain, this should be empty
 url: "https://blog.brandomy.com" # Your custom domain with https protocol
@@ -77,13 +88,22 @@ layout: home
 ```
 
 ## Post Front Matter Check
-### 2025-03-20-welcome-to-my-musings.md
+### 2025-03-01-welcome-to-brandomy.md
 ```yaml
 ---
 layout: post
-title: "My First Blog Post"
+title: "Welcome to Brandomy"
 date: 2025-03-20 08:00:00 +0800
-categories: personal
+category: brand-thoughts
+---
+```
+### 2025-03-21-thoughts-on-my-why.md
+```yaml
+---
+layout: post
+title: "My Why?"
+date: 2025-03-21 06:30:00 +0800
+category: brand-thoughts
 ---
 ```
 
@@ -104,7 +124,8 @@ Consider adding 'future: true' to _config.yml
 
 Files with future dates:
 ```
-_posts/2025-03-20-welcome-to-my-musings.md
+_posts/2025-03-01-welcome-to-brandomy.md
+_posts/2025-03-21-thoughts-on-my-why.md
 ```
 
 ---
