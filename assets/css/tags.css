@@ -1,0 +1,151 @@
+/* Tag styling for Brandomy blog */
+
+/* ===== Post tag styling ===== */
+.post-tags {
+  margin: 10px 0 20px;
+  font-size: 0.85em;
+  color: #666;
+}
+
+.post-tags-label {
+  font-weight: normal;
+  color: #888;
+  margin-right: 6px;
+}
+
+.post-tag-item {
+  display: inline-block;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  padding: 2px 8px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  font-size: 0.9em;
+  color: #666;
+  border: 1px solid #eee;
+  transition: all 0.2s ease;
+}
+
+.post-tag-item:hover {
+  background-color: #f0f0f0;
+  color: #3273dc;
+  text-decoration: none;
+  border-color: #ddd;
+}
+
+/* ===== Tag page styling ===== */
+/* Main tags page sections */
+.tags-page h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.tags-page h2 {
+  color: #444;
+  font-size: 1.4em;
+  margin-bottom: 15px;
+}
+
+/* Tag cloud */
+.tag-cloud {
+  margin: 20px 0 30px;
+  line-height: 2.2;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.tag-link {
+  display: inline-block;
+  margin: 0 8px 10px 0;
+  padding: 3px 10px;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  font-size: 0.9em;
+  color: #666;
+  border: 1px solid #eee;
+  transition: all 0.2s ease;
+}
+
+.tag-link:hover {
+  background-color: #f0f0f0;
+  color: #3273dc;
+  text-decoration: none;
+  border-color: #ddd;
+}
+
+.tag-cloud .tag-link:last-child {
+  margin-right: 0;
+}
+
+/* Tag groups */
+.tag-groups {
+  margin-top: 40px;
+}
+
+.tag-group {
+  margin-bottom: 35px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.tag-group h3 {
+  color: #555;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+  font-weight: 500;
+}
+
+.tag-group .post-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.tag-group .post-list li {
+  margin-bottom: 10px;
+}
+
+.tag-group .post-date {
+  color: #777;
+  margin-left: 5px;
+}
+
+/* Hide empty tag sections */
+.tag-group:empty {
+  display: none;
+}
+
+/* Make anchors work with fixed header adjustment */
+.tag-group:before {
+  display: block;
+  content: " ";
+  margin-top: -60px;
+  height: 60px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Style for the all-tags-link */
+.all-tags-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #666;
+  font-weight: bold;
+}
+
+.all-tags-link:hover {
+  color: #3273dc;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .tag-link, .post-tag-item {
+    margin-bottom: 10px;
+  }
+  
+  .tag-cloud {
+    line-height: 3;
+  }
+}

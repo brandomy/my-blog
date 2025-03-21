@@ -1,5 +1,5 @@
 # Jekyll Project Structure Report
-*Generated: Fri 21 Mar 2025 08:08:39 +08*
+*Generated: Fri Mar 21 10:01:30 +08 2025*
 
 ## Basic System Information
 - **Operating System:** Darwin
@@ -10,6 +10,7 @@
 ## Project Directory Structure
 ```
 .
+./_drafts
 ./_includes
 ./_layouts
 ./_posts
@@ -30,6 +31,7 @@
 ./_config.yml
 ./about.md
 ./categories.md
+./create-post.sh
 ./index.md
 ./jekyll-project-report.md
 ./jekyll-report-safe.sh
@@ -65,6 +67,7 @@ description: >-
 baseurl: "" # With a custom domain, this should be empty
 url: "https://blog.brandomy.com" # Your custom domain with https protocol
 theme: minima
+permalink: /:year/:month/:day/:title/
 ```
 
 ### Gemfile Key Settings

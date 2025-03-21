@@ -3,6 +3,10 @@ layout: post
 title: "Welcome to Brandomy"
 date: 2025-03-20 08:00:00 +0800
 category: brand-thoughts
+tags:
+  - Life Lessons
+  - Small Wonders
+  - Unexpected Joy
 ---
 
 # Welcome to Brandomy: My Brand Story Journey Begins

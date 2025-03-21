@@ -28,7 +28,16 @@ layout: default
         </span>
       {% endif %}
     </p>
-  </header>
+
+    <!-- Only one tag section -->
+    {% if page.tags %}
+    <div class="post-tags">
+      <span class="post-tags-label">Tags:</span>
+      {% for tag in page.tags %}
+        <a href="/tags/#{{ tag | slugify }}" class="post-tag-item">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}

@@ -3,6 +3,11 @@ layout: post
 title: "My Why?"
 date: 2025-03-21 06:30:00 +0800
 category: brand-thoughts
+tags:
+  - Life Lessons
+  - Random Thoughts
+  - Memory Lane
+  - Spotted in China
 ---
 
 ![A winding path forward in the forest](/assets/images/my-why.jpg)

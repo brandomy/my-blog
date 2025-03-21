@@ -13,6 +13,7 @@ header_pages:
   # Add any other pages you want in navigation
   # - contact.md
   # - projects.md
+  # - tags.md
 
 sass:
   quiet_deps: true
@@ -26,6 +27,8 @@ permalink: /:year/:month/:day/:title/
 collections:
   category:
     output: true
+  tags:
+    output: true
 
 defaults:
   - scope:
@@ -33,3 +36,18 @@ defaults:
       type: category
     values:
       layout: "category"
+  - scope:
+      path: ""
+      type: tags
+    values:
+      layout: "tag"
+
+
+
+# Tag settings
+tag_page: '/tags/'
+
+# Enable future posts since your current posts are future-dated
+# future: true
+
+
