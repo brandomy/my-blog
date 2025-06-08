@@ -1,0 +1,8 @@
+print("-------------------------")
+print("Hello, World!")
+print("This is a sample Python script.")
+print("It demonstrates basic print functionality.")
+print("You can modify this script to suit your needs.")
+print("Feel free to add more functionality as required.")
+print("Enjoy coding in Python!")
+print("-------------------------")
